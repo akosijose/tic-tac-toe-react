@@ -45,8 +45,22 @@ body {
   background-color: #e4dfdf;
 }
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .board {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 270px;
+    background-color: #d4cfcf;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+}
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .board {
@@ -66,8 +80,8 @@ body {
   .board {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     background-color: #d4cfcf;
     /* border: 1px solid black; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
