@@ -44,3 +44,17 @@ body {
 .square:active {
   background-color: #e4dfdf;
 }
+
+/* for mobile phones */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .board {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 330px;
+    background-color: #d4cfcf;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+}
